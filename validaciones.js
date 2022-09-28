@@ -12,7 +12,7 @@ const listar=()=>{
     let tbody=document.getElementById("cTabla")
     let contenido=""
    for(let i=0;i<usuarios.length;i++){
-        contenido+="<tr> <td>"+usuarios[i].cedula+
+        contenido+="<tr><td>"+usuarios[i].cedula+
         "</td><td>"+usuarios[i].nombre+"</td><td>"
         +usuarios[i].apellido+"</td><td>"
         +usuarios[i].pais+"</td><td>"
